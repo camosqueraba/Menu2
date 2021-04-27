@@ -1,13 +1,17 @@
 
 function scroll_to(clicked_link, nav_height) {
-	var element_class = clicked_link.attr('href').replace('#', '.');
+	/*var element_class = clicked_link.attr('href').replace('#', '.');*/
+	var element_class = clicked_link.attr('href');
 	var scroll_to = 0;
 	/*
 	console.log("Vertical: " + window.scrollY);
   	console.log("Horizontal: " + window.scrollX);
 	*/
-	if(element_class != '.top-content') {
-		element_class += '-container';
+	if(element_class != '#top-content') {
+	/*if(element_class != '.top-content') {*/
+		//element_class += '-container';
+		//element_class += "#"+ element_class;
+		console.log(element_class);
 		scroll_to = $(element_class).offset().top - nav_height;
 	}
 	if($(window).scrollTop() != scroll_to) {

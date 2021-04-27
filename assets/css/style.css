@@ -1,3 +1,10 @@
+/*
+	colores perfect
+	#e82a7a rosado
+	#a3a3a3 gris
+	#003660 azul
+
+*/
 
 body {
 	 font-family: 'Open Sans', sans-serif;
@@ -28,8 +35,19 @@ img { max-width: 100%; }
 
 .medium-paragraph { font-size: 17px; line-height: 32px; }
 
-::-moz-selection { background: #8542a0; color: #fff; text-shadow: none; }
-::selection { background: #8542a0; color: #fff; text-shadow: none; }
+::-moz-selection { 
+	
+	background: #003660;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	
+	background: #003660;
+	color: #fff;
+	text-shadow: none;
+}
 
 
 /***** General style, all sections *****/
@@ -72,7 +90,13 @@ img { max-width: 100%; }
  	 color: #fff;
  	 /*text-transform: uppercase;*/
  }
-.navbar-dark .navbar-nav .nav-link { color: #fff; color: rgba(255, 255, 255, 0.8); border: 0; }
+.navbar-dark .navbar-nav .nav-link { 
+	  color: #fff;
+ 	  color: rgba(255, 255, 255, 1);
+	  border: 0;
+	  margin-top: 25px;
+}
+
 .navbar-dark .navbar-nav .nav-link:hover {
 	 color: #fff;
 	 background-color: #003660;
@@ -165,6 +189,14 @@ background-color: rgb(110,110,110);
 .top-content .carousel-indicators { bottom: -40px; }
 .top-content .carousel-indicators li { width: 16px; height: 16px; margin-left: 5px; margin-right: 5px; border-radius: 50%; }
 
+.ancho-carousel{
+
+	width: 100%;
+}
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
 
 /***** Section 1 *****/
 

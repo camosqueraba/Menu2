@@ -41,13 +41,16 @@
 			                <a class="nav-link scroll-link" href="#top-content">Inicio</a>
 			            </li>
 			            <li class="nav-item">
-			                <a class="nav-link scroll-link" href="#section-2">Anuncios</a>
+			                <!--<a class="nav-link scroll-link" href="#section-2">Anuncios</a>-->
+			                <a class="nav-link scroll-link" href="#anuncio2">Anuncios</a>
 			            </li>
 			            <li class="nav-item">
-			                <a class="nav-link scroll-link" href="#section-1">Cumpleaños</a>
+			                <!--<a class="nav-link scroll-link" href="#section-1">Cumpleaños</a>-->
+			                <a class="nav-link scroll-link" href="#seccion-cumpleaños">Cumpleaños</a>
 			            </li>
 			            <li class="nav-item">
-			                <a class="nav-link scroll-link" href="#section-3">Protocolos Covid19</a>
+			                <!--<a class="nav-link scroll-link" href="#section-3">Protocolos Covid19</a>-->
+			                <a class="nav-link scroll-link" href="#seccion-protocoloscovid">Protocolos Covid19</a>
 			            </li>
 			            <li id="boton_menu" class="nav-item" onclick="clickMenu()">
 			                <a class="nav-link scroll-link" href="">Menú</a>
@@ -133,12 +136,12 @@
 	       					<div class="carousel-inner">
 	       						
 	       						<div class="carousel-item active">
-	       							<a id="" href="#section-1">
+	       							<a id="" class="scroll-link" href="#anuncio2">
 	       								<img src="assets/img/slides/enfermero.jpg" class="d-block w-100" alt="slide-img-1">
 	       							</a>
-	       							<div class="carousel-caption" style="background-color: blue;">
+	       							<div class="carousel-caption">
 										<a>
-											<h3>Feliz Dia Profesionales de Enfermeria</h3>
+											<h3 class="carousel-titulo">Feliz Dia Profesionales de Enfermeria</h3>
 											<div class="carousel-caption-description">
 												<p>Feliz dia a todos los profesionales de enfermeria.</p>
 											</div>
@@ -167,10 +170,30 @@
 										</div>
 									</div>
 	       						</div>
+	       						
+	       						<div class="carousel-item">
+	       							<div class="embed-responsive embed-responsive-16by9">
+	       								<video class="embed-responsive-item" src="assets/videos/4.mp4" allowfullscreen controls autoplay></video>
+	       							</div>
+	       							<div class="carousel-caption">
+										<h3>Caption for Video 3</h3>
+										<div class="carousel-caption-description">
+											<p>This is the caption description text for video 3.</p>
+										</div>
+									</div>
+	       						</div>
 	       						<!--
 	       						<div class="carousel-item">
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oiKj0Z_Xnjc" allowfullscreen></iframe>
+	       								<div id="cincopa_085660">...</div>
+	       								<script type="text/javascript">
+											var cpo = []; cpo["_object"] ="cincopa_085660"; cpo["_fid"] = "A8MAyyenVbp7";
+											var _cpmp = _cpmp || []; _cpmp.push(cpo);
+											(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+											cp.async = true; cp.src = "https://rtcdn.cincopa.com/libasync.js";
+											var c = document.getElementsByTagName("script")[0];
+											c.parentNode.insertBefore(cp, c); })();
+										 </script>
 	       							</div>
 	       							<div class="carousel-caption">
 										<h3>Caption for Video 3</h3>
@@ -198,9 +221,9 @@
 	       								<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" allowfullscreen></iframe>
 	       							</div>
 	       							<div class="carousel-caption">
-										<h3>Caption for Video 2</h3>
+										<h3>Caption for VIMEO</h3>
 										<div class="carousel-caption-description">
-											<p>This is the caption description text for video 2.</p>
+											<p>VIDEO DE VIMEO</p>
 										</div>
 									</div>
 	       						</div>
@@ -224,15 +247,16 @@
         </div>
 
          <!-- Section 2 -->
-        <div class="section-2-container section-container section-container-gray-bg">
-	        <div class="container">
+        
+    	<div id="anuncio1" class="section-2-container section-container section-container-gray-bg">
+	        <div  class="container">
 	            <div class="row">
 	                <div class="col section-2 section-description wow fadeIn">
 	                </div>
 	            </div>
 	            <div class="row">
 	            	<div class="col section-2-box wow fadeInLeft">
-                    	<h3 id="titulo-anuncio2" class="">Anuncios</h3>
+                    	<h3 id="titulo-anuncio2" class="">Anuncios1</h3>
                     	<p class="medium-paragraph">
                     		Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
                     		sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.
@@ -248,6 +272,14 @@
                     		Ut wisi enim ad minim veniam, quis nostrud. 
                     		Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                     	</p>
+	                </div>
+	            </div>
+            </div>
+        </div>
+        <div id="anuncio2" class="section-2-container section-container section-container-gray-bg">
+	        <div  class="container">
+	            <div class="row">
+	                <div class="col section-2 section-description wow fadeIn">
 	                </div>
 	            </div>
 	            <div class="row">
@@ -270,10 +302,14 @@
                     	</p>
 	                </div>
 	            </div>
-	        </div>
+            </div>
         </div>
+      
+         	
+        
+        
         <!-- Section 1 -->
-        <div class="section-1-container section-container">
+        <div id="seccion-cumpleaños"  class="section-1-container section-container">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col section-1 section-description wow fadeIn">
@@ -328,11 +364,11 @@
        
 
 		<!-- Section 3 -->
-        <div class="section-3-container section-container">
+        <div   class="section-3-container section-container">
 	        <div class="container">
 	        	
 	            <div class="row">
-	                <div class="col section-3 section-description wow fadeIn">
+	                <div id="seccion-protocoloscovid" class="col section-3 section-description wow fadeIn">
 	                    <h2>Protocolos Covid19</h2>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
