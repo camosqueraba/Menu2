@@ -1,0 +1,19 @@
+{
+	"sliders-carousel":[
+		{"tipo"	:1, 
+		 "id"	: "anuncio1",
+		 "foto"	:"desierto.jpg",
+		 "video":null,
+		 "titulo": "Anuncio 1",
+		 "descripcion": "descripcion anuncio 1"
+		},
+
+		{"tipo"	:2, 
+		 "id"	: "anuncio2",
+		 "foto"	:null,
+		 "video":"4.mp4",
+		 "titulo": "Anuncio 2",
+		 "descripcion": "descripcion anuncio 2"
+		}
+	]
+}
