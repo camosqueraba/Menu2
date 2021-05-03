@@ -6,12 +6,12 @@ function cargarUsuarios(){
         .then(usuarios => {
             usuarios.forEach(usuario => {
                 const row = document.createElement('tr');
-                row.innerHTML += '
+                row.innerHTML += `
                     <td>${usuario.id}</td>
                     <td>${usuario.name}</td>
                     <td>${usuario.email}</td>
                     <td>${usuario.company.name}</td>
-                ';
+                `;
                 tabla.appendChild(row);                
             });
         }) // Aquí mostramos dicha información

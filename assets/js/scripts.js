@@ -53,7 +53,7 @@ jQuery(document).ready(function() {
 
 window.onscroll = function() {
   
-  console.log("Vertical: " + window.scrollY);
+  //console.log("Vertical: " + window.scrollY);
   /*console.log("Horizontal: " + window.scrollX);
 */
  if (window.scrollY < 35){

@@ -199,6 +199,11 @@ background-color: rgb(110,110,110);
   height:100%;
 }
 
+.carousel-inner{
+
+	width: 100%;
+}
+
 /***** Section 1 *****/
 
 .section-1-box { padding-top: 30px; text-align: left; }
