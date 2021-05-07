@@ -42,7 +42,7 @@
 			            </li>
 			            <li class="nav-item">
 			                <!--<a class="nav-link scroll-link" href="#section-2">Anuncios</a>-->
-			                <a class="nav-link scroll-link" href="#anuncio2">Anuncios</a>
+			                <a class="nav-link scroll-link" href="#anuncio1">Anuncios</a>
 			            </li>
 			            <li class="nav-item">
 			                <!--<a class="nav-link scroll-link" href="#section-1">Cumpleaños</a>-->
@@ -102,37 +102,24 @@
 
         <!-- Top content -->
         <div class="top-content">
-	        <div class="container">
+	        <div class="container" style="">
 	        	<!-- Title and description row -->
-	            <!--
-	            <div class="row">
-	                <div class="col col-md-10 offset-md-1">
-	                	<h1>Carousel Template with Videos, Images, Captions</h1>
-	                	<div class="description">
-	                		<p>
-	                			This is a free Carousel template with Videos, Images and Captions, made with the Bootstrap 4 framework. 
-	                			Click on the indicators, controls and links to interact with the page.
-	                		</p>
-	                	</div>
-	                </div>
-	            </div>
-	        	-->
+	            
 	            <!-- End title and description row --> 
+	            
 	            <!-- Carousel row -->
 	            <div class="row margin-top-carousel">
-	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-	            <!--<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">-->
+	            <!--<div class="col">-->
+	            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 	                	<!-- Carousel -->
-	                	<div id="carousel-example" class="carousel slide ancho-carousel">
-	                		<!--
-	       					<ol class="carousel-indicators">
-	       						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-	       						<li data-target="#carousel-example" data-slide-to="1"></li>
-	       						<li data-target="#carousel-example" data-slide-to="2"></li>
-	       						<li data-target="#carousel-example" data-slide-to="3"></li>
-	       						<li data-target="#carousel-example" data-slide-to="4"></li>
-	       					</ol>
-	       					-->
+	                	<div id="carousel-example" class="carousel slide">
+	                <!--<div id="carousel-example" class="carousel slide ancho-carousel">-->	
+	                		
+
+	                		<!--carousel indicadores-->
+	                	     		
+	       					<!--fin carousel indicadores-->
+	       					
 	       					<div id="contenido-carousel" class="carousel-inner">
 	       						
 	       						<div class="carousel-item active">
@@ -141,32 +128,35 @@
 	       							</a>
 	       							<div class="carousel-caption">
 										<a  class="scroll-link" href="#anuncio2">
-											<h3 class="carousel-titulo">Feliz Dia Profesionales de Enfermeria</h3>
-											<div class="carousel-caption-description">
-												<p>Feliz dia a todos los profesionales de enfermeria.</p>
+											<h3 class="carousel-anuncio-titulo"><span class="fondo-texto">FELIZ DIA DEL PROFESIONAL DE ENFERMERIA</span></h3>
+											<div class="carousel-anuncio-descripcion">
+												<p><span class="fondo-texto">Feliz dia a todos los profesionales de enfermeria</span></p>
 											</div>
 										</a>
 									</div>
 	       						</div>
-	       						
+	       						     						
+
 	       						<div class="carousel-item">
 	       							<div class="imagen-slider">
-	       								<img src="assets/img/slides/desierto.jpg" class="d-block w-100" alt="slide-img-2">
+	       								<img src="assets/img/slides/foto_gracias_editada.jpg" class="d-block w-100" alt="slide-img-2" style="height: auto">
 	       							</div>
 	       							
-	       							<div class="carousel-caption texto-slider">
-										<h3>Hola</h3>
-										<div class="carousel-caption-description">
-											<p>Gracias por brindar lo mejor en cada en atención.</p>
-										</div>
+	       							<div class="carousel-caption">
+	       								<a  class="scroll-link" href="#anuncio2">
+											<h3 class="carousel-anuncio-titulo">GRACIAS A TODOS</h3>
+											<div class="carousel-anuncio-descripcion">
+												<p>Gracias por brindar lo mejor en cada en atención.</p>
+											</div>
+										</a>
 									</div>
 	       						</div>
 	       						<div class="carousel-item">
-	       							<img src="assets/img/slides/postura.jpg" class="d-block w-100" alt="slide-img-2">
+	       							<img src="assets/img/slides/huellero.jpg" class="d-block w-100" alt="slide-img-2">
 	       							<div class="carousel-caption">
-										<h3>GRACIAS</h3>
-										<div class="carousel-caption-description">
-											<p>Gracias por brindar lo mejor en cada en atención.</p>
+										<h3 class="carousel-anuncio-titulo">ENTRADA O SALIDA SOLO USE LA HUELLA</h3>
+										<div class="carousel-anuncio-descripcion">
+											<p>Para registrar su ingreso o salida, solo use la huella</p>
 										</div>
 									</div>
 	       						</div>
@@ -176,58 +166,13 @@
 	       								<video class="embed-responsive-item" src="assets/videos/4.mp4" allowfullscreen controls autoplay></video>
 	       							</div>
 	       							<div class="carousel-caption">
-										<h3>Caption for Video 3</h3>
-										<div class="carousel-caption-description">
+										<h3 class="carousel-anuncio-titulo">Caption for Video 3</h3>
+										<div class="carousel-anuncio-descripcion">
 											<p>This is the caption description text for video 3.</p>
-										</div>
-									</div>
-	       						</div>
-	       						<!--
-	       						<div class="carousel-item">
-	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<div id="cincopa_085660">...</div>
-	       								<script type="text/javascript">
-											var cpo = []; cpo["_object"] ="cincopa_085660"; cpo["_fid"] = "A8MAyyenVbp7";
-											var _cpmp = _cpmp || []; _cpmp.push(cpo);
-											(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-											cp.async = true; cp.src = "https://rtcdn.cincopa.com/libasync.js";
-											var c = document.getElementsByTagName("script")[0];
-											c.parentNode.insertBefore(cp, c); })();
-										 </script>
-	       							</div>
-	       							<div class="carousel-caption">
-										<h3>Caption for Video 3</h3>
-										<div class="carousel-caption-description">
-											<p>This is the caption description text for video 3.</p>
-										</div>
-									</div>
-	       						</div>
-	       						-->
-	       						<!--
-	       						<div class="carousel-item active">
-	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=naJklgh-ZLs&list=PLIddmSRJEJ0sxS-RmqdRMlkyWOQWvEGEt" allowfullscreen></iframe>
-	       							</div>
-	       							<div class="carousel-caption">
-										<h3>Caption for Video 1</h3>
-										<div class="carousel-caption-description">
-											<p>This is the caption description text for video 1.</p>
 										</div>
 									</div>
 	       						</div>-->
-	       						<!--
-	       						<div class="carousel-item">
-	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" allowfullscreen></iframe>
-	       							</div>
-	       							<div class="carousel-caption">
-										<h3>Caption for VIMEO</h3>
-										<div class="carousel-caption-description">
-											<p>VIDEO DE VIMEO</p>
-										</div>
-									</div>
-	       						</div>
-	       						-->
+	       						
 	       					</div>
 	       					
 							<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
@@ -251,31 +196,55 @@
     	<div id="anuncio1" class="section-2-container section-container section-container-gray-bg">
 	        <div  class="container">
 	            <div class="row">
-	                <div class="col section-2 section-description wow fadeIn">
-	                </div>
-	            </div>
+			        <div class="col section-1 section-description wow fadeIn">
+			                    <h2>Anuncios</h2>
+			                    <div class="divider-1 wow fadeInUp"><span></span></div>
+		            </div>
+
+	        <div  class="container">
 	            <div class="row">
-	            	<div class="col section-2-box wow fadeInLeft">
-                    	<h3 id="titulo-anuncio2" class="">Anuncios1</h3>
-                    	<p class="medium-paragraph">
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                    		sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.
-                    	</p>
-                    	<p>
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                    		Ut wisi enim ad minim veniam, quis nostrud. 
-                    		Exerci tation ullamcorper suscipit <a href="#">lobortis nisl</a> ut aliquip ex ea commodo consequat. 
-                    		Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl. 
-                    	</p>
-                    	<p>
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                    		Ut wisi enim ad minim veniam, quis nostrud. 
-                    		Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    	</p>
+	            	<div class="col-sm-12 section-2-box wow fadeInLeft">
+	            	
+                    	<div class="card" >
+							<div class="card-body">
+							    <h5 class="card-title">ENTRADA O SALIDA SOLO USE LA HUELLA</h5>
+							    <p class="card-text">Para registrar su ingreso o salida, solo use la huella</p>
+							    <a href="#" class="badge badge-pill badge-info">Mas información</a>
+							    <img src="assets/img/slides/huellero.jpg" class="card-img-top" alt="..." >
+						    </div>
+						</div>
 	                </div>
 	            </div>
             </div>
         </div>
+        
+        <div id="anuncio2" class="section-2-container section-container section-container-gray-bg">
+	        <div  class="container">
+	            <!--
+	            <div class="row">
+	                <div class="col section-1 section-description wow fadeIn">
+	                    <h2>Anuncios</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	          -->
+	            <div class="row">
+	            	<div class="col-sm-12 section-2-box wow fadeInLeft">
+	            	
+                    	<div class="card" >
+							<div class="card-body">
+							    <h5 class="card-title">GRACIAS</h5>
+							    <p class="card-text">Gracias por brindar lo mejor en cada servicio </p>
+							    <a href="#" class="badge badge-pill badge-info">Mas información</a>
+							    <img src="assets/img/slides/foto_gracias_editada.jpg" class="card-img-top" alt="..." >
+						    </div>
+						</div>
+	                </div>
+	            </div>
+            </div>
+        </div>
+
+        <!--
         <div id="anuncio2" class="section-2-container section-container section-container-gray-bg">
 	        <div  class="container">
 	            <div class="row">
@@ -284,7 +253,7 @@
 	            </div>
 	            <div class="row">
 	            	<div class="col section-2-box wow fadeInLeft">
-                    	<h3 id="titulo-anuncio2" class="">Anuncios2</h3>
+                    	<h3 id="titulo-anuncio2" class=""></h3>
                     	<p class="medium-paragraph">
                     		Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
                     		sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.
@@ -304,7 +273,7 @@
 	            </div>
             </div>
         </div>
-      
+      	-->
          	
         
         
@@ -326,8 +295,9 @@
 			                	</div>
 		                	</div>
 	                		<div class="col-md-8">
-	                    		<h3>Branding</h3>
-	                    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+	                    		<h3 id="nombre">NAIRO REDONDO FLOREZ</h3>
+	                    		<h4 id="cargo">Jefe Man</h3>
+	                    		<p id="fecha_cumple">10 de Mayo</p>
 	                    	</div>
 	                    </div>
                     </div>
@@ -339,8 +309,38 @@
 			                	</div>
 		                	</div>
 	                		<div class="col-md-8">
-	                    		<h3>Web design</h3>
-	                    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+	                    		<h3>LINA SALGADO GOMEZ</h3>
+	                    		<h4 id="cargo">Administrativo</h3>
+	                    		<p id="fecha_cumple">11 de Mayo</p>
+	                    	</div>
+	                    </div>
+                    </div>
+                    <div class="col-md-4 section-1-box wow fadeInUp">
+	                	<div class="row">
+                			<div class="col-md-4">
+			                	<div class="section-1-box-icon">
+			                		<i class="fab fa-twitter"></i>
+			                	</div>
+		                	</div>
+	                		<div class="col-md-8">
+	                    		<h3>OSCAR RODRIGUEZ AVENDAÑO</h3>
+	                    		<h4 id="cargo">Asistencial</h3>
+	                    		<p id="fecha_cumple">11 de Mayo</p>
+	                    	</div>
+	                    </div>
+                    </div>
+
+                    <div class="col-md-4 section-1-box wow fadeInUp">
+	                	<div class="row">
+                			<div class="col-md-4">
+			                	<div class="section-1-box-icon">
+			                		<i class="fab fa-twitter"></i>
+			                	</div>
+		                	</div>
+	                		<div class="col-md-8">
+	                    		<h3>Social media</h3>
+	                    		<h4 id="cargo">Todera</h3>
+	                    		<p id="fecha_cumple">11 de Mayo</p>
 	                    	</div>
 	                    </div>
                     </div>
@@ -353,7 +353,22 @@
 		                	</div>
 	                		<div class="col-md-8">
 	                    		<h3>Social media</h3>
-	                    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+	                    		<h4 id="cargo">Todera</h3>
+	                    		<p id="fecha_cumple">11 de Mayo</p>
+	                    	</div>
+	                    </div>
+                    </div>
+                    <div class="col-md-4 section-1-box wow fadeInUp">
+	                	<div class="row">
+                			<div class="col-md-4">
+			                	<div class="section-1-box-icon">
+			                		<i class="fab fa-twitter"></i>
+			                	</div>
+		                	</div>
+	                		<div class="col-md-8">
+	                    		<h3>Social media</h3>
+	                    		<h4 id="cargo">Todera</h3>
+	                    		<p id="fecha_cumple">11 de Mayo</p>
 	                    	</div>
 	                    </div>
                     </div>
@@ -491,3 +506,82 @@
     </body>
 
 </html>
+
+
+<!-- videos incrustados-->
+	       						<!--
+	       						<div class="carousel-item active">
+	       							<div class="embed-responsive embed-responsive-16by9">
+	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=naJklgh-ZLs&list=PLIddmSRJEJ0sxS-RmqdRMlkyWOQWvEGEt" allowfullscreen></iframe>
+	       							</div>
+	       							<div class="carousel-caption">
+										<h3>Caption for Video 1</h3>
+										<div class="carousel-caption-description">
+											<p>This is the caption description text for video 1.</p>
+										</div>
+									</div>
+	       						</div>-->
+	       						<!--
+	       						<div class="carousel-item">
+	       							<div class="embed-responsive embed-responsive-16by9">
+	       								<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" allowfullscreen></iframe>
+	       							</div>
+	       							<div class="carousel-caption">
+										<h3>Caption for VIMEO</h3>
+										<div class="carousel-caption-description">
+											<p>VIDEO DE VIMEO</p>
+										</div>
+									</div>
+	       						</div>
+	       						-->
+
+<!-- Title and description row -->
+	            <!--
+	            <div class="row">
+	                <div class="col col-md-10 offset-md-1">
+	                	<h1>Carousel Template with Videos, Images, Captions</h1>
+	                	<div class="description">
+	                		<p>
+	                			This is a free Carousel template with Videos, Images and Captions, made with the Bootstrap 4 framework. 
+	                			Click on the indicators, controls and links to interact with the page.
+	                		</p>
+	                	</div>
+	                </div>
+	            </div>
+	        	-->
+<!-- End title and description row --> 
+
+
+<!--carousel indicadores-->
+	                	     		
+	       					
+<!--
+	       					<ol class="carousel-indicators">
+	       						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+	       						<li data-target="#carousel-example" data-slide-to="1"></li>
+	       						<li data-target="#carousel-example" data-slide-to="2"></li>
+	       						<li data-target="#carousel-example" data-slide-to="3"></li>
+	       						<li data-target="#carousel-example" data-slide-to="4"></li>
+	       					</ol>
+	       					-->
+	       					<!--fin carousel indicadores-->
+
+<!-- elemento card horizontal
+<div class="carousel-item">
+	       							<div class="card mb-3" style="max-width: 540px;">
+									  <div class="row g-0">
+									    <div class="col-md-4">
+									      <img src="assets/img/slides/desierto.jpg" alt="...">
+									    </div>
+									    <div class="col-md-12">
+									      <div class="card-body">
+									        <h5 class="card-title">Card title</h5>
+									        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+	       						</div>
+
+-->
