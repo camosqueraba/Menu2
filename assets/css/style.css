@@ -8,7 +8,8 @@
 */
 
 body {
-	 font-family: 'Source Sans Pro', 'Arial', sans-serif;;
+	 /*font-family: 'Source Sans Pro', 'Arial', sans-serif;*/
+	 font-family: 'Poppins', sans-serif;
 	 font-size: 15px;
 	 font-weight: 400;
 	 color: #888;
@@ -257,12 +258,48 @@ background-color: rgb(110,110,110);
 
 .section-1-box h3 { margin-top: 0; padding: 0 0 10px 0; }
 
+.contenedor-cumple{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: px;
+}
+.contenedor-cumple h3{
+	font-size: 20;
+}
 
+.titulo-cumpleanio{
+
+	color: #e82a7a; 
+}
+.color-fecha{
+	color: #003660;
+}
 /***** Section 2 *****/
 
 .section-2-box { margin-top: 30px; text-align: left; }
 .section-2-box h3 { margin-top: 0; }
 .section-2-box-text .medium-paragraph { margin-top: 20px; margin-bottom: 20px; }
+
+.imagen-anuncio {
+  width: 1024px;
+  max-width: 1024px;
+  height: 576px;
+  max-height: 576px;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title{
+
+	color: #e82a7a;
+	font-size: 22px;
+}
+
+.card-text{
+	color: #222222;
+	font-size: 18px;
+}
+
 
 
 /***** Section 3 *****/
